@@ -2,8 +2,6 @@
 
 O projeto "Game Dame" é uma aplicação web desenvolvida como parte do processo de Trainee de Front End na Emakers Jr. Trata-se de um modelo de site voltado para jogos, que visa proporcionar uma experiência interativa e envolvente para os usuários. A aplicação é construída utilizando a biblioteca React, com HTML e CSS para estruturação e estilização.
 
-Oferece uma estrutura para um site de jogos, com funcionalidades de login, registro, navegação entre páginas e interação com o usuário. Ele representa um ponto de partida sólido para o desenvolvimento de uma aplicação web mais robusta e complexa, garantindo uma experiência agradável e intuitiva para os usuários.
-
 ## Estrutura do Projeto 
 
 O projeto consiste em oito páginas principais, cada uma com funcionalidades específicas:
@@ -27,10 +25,16 @@ Além disso, há diversos componentes adicionais integrados em várias páginas:
 - **Pagamento (em ShoppingCart):** Funcionalidade para pagamento dos itens selecionados.
 - **SearchBar (em NavBar):** Barra de pesquisa na barra de navegação.
 
-As páginas são conectadas para navegação entre elas no arquivo `App.jsx`, utilizando a biblioteca `react-router-dom` .
-
-O projeto foi desenvolvido utilizando como base o pré-modelo `vite@latest` e utiliza o framework React.
-
 ## Tecnologias Utilizadas
 
-O projeto foi desenvolvido utilizando o pré-modelo `vite@latest`, e está escrito em JavaScript, CSS e HTML, utilizando o framework React para a construção da interface.
+- O projeto foi desenvolvido em JavaScript, modelado e estilizado com HTML/CSS.
+- Utilizou-se o construtor de aplicativos web Vite.
+- Foi empregado o framework React para a construção da interface.
+
+As páginas são conectadas para navegação através do arquivo `App.jsx`, utilizando a biblioteca `react-router-dom`.
+
+Este projeto foi desenvolvido com base no pré-modelo `vite@latest`.
+
+##
+
+Portanto, o projeto oferece uma estrutura básica para um site de jogos, com funcionalidades de login, registro, navegação entre páginas e interação com o usuário. Ele representa um ponto de partida para o desenvolvimento de uma aplicação web mais robusta e complexa, garantindo uma experiência agradável e intuitiva para os usuários.
