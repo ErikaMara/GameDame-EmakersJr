@@ -1,0 +1,169 @@
+.gow {
+    position: absolute;
+    width: 843px;
+    height: 530px;
+    top: 205px;
+    left: 74px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.disc, .pricetag {
+    position: absolute;
+    width: 60px;
+    height: 25px;
+    left: 726px;
+    top: 691px;
+    background: #4B626C;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FCFAFA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.disc:hover, .pricetag:hover {
+    background-color: #89A7B3;
+    scale: 1.1;
+}
+
+.pricetag {
+    width: 93px;
+    left: 801px;
+    background: #FCFAFA;
+    color: #4B626C;
+}
+
+.pricetag:hover {
+    background-color: #f0f8fc;
+}
+
+.rtng {
+    position: absolute;
+    width: 375px;
+    height: 530px;
+    left: 917px;
+    top: 205px;
+    background: #4B626C;
+    border-radius: 0px 10px 10px 0px;
+    z-index: -1;
+}
+
+.titleGod {
+    position: absolute;
+    width: 174px;
+    height: 39px;
+    left: 1017px;
+    top: 227px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FBF6F0;
+    white-space: nowrap;
+}
+
+.noveoito {
+    position: absolute;
+    width: 64px;
+    height: 39px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FBF6F0;
+}
+
+.text {
+    position: absolute;
+    width: 308px;
+    height: 290px;
+    left: 950px;
+    top: 302px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FBF6F0;
+}
+
+.whiteline {
+    position: absolute;
+    width: 312px;
+    left: 948px;
+    top: 628px;
+    border: 1px solid #FBF6F0;
+    border-radius: 1px;
+}
+
+.adcCart, .reembolso {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 215px;
+    height: 35px;
+    left: 1001px;
+    top: 646px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #4B626C;
+    background: #FCFAFA;
+}
+
+.reembolso {
+    top: 686px;
+    opacity: 0.5;
+}
+
+.adcCart:hover {
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.2);
+    background-color: whitesmoke;
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.adcCart:active {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transform: translate(-1px, 1px);
+}
+
+.ball, .ball2 {
+    position: absolute;
+    width: 93px;
+    height: 93px;
+    left: 27px;
+    top: 158px;
+    background: #4B626C;
+    border: 0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ball2 {
+    width: 70px;
+    height: 70px;
+    left: 1256px;
+    top: 800px;
+}
+
+.shoppingCart {
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    scale: 2.5;
+}
+
+.shoppingCart:hover{
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+}
+.shoppingCart:active {
+    transform: translate(1.1px, 1px);
+   
+}

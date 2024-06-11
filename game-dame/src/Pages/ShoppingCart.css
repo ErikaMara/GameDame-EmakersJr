@@ -1,0 +1,231 @@
+.bigbox {
+    position: absolute;
+    width: 834px;
+    height: 923px;
+    top: 101px;
+    background: #4B626C;
+    z-index: -1;
+}
+
+.otherbox {
+    position: absolute;
+    width: 515px;
+    height: 923px;
+    left: 834px;
+    top: 101px;
+    background: #FBF6F0;
+    z-index: -1;
+    box-shadow: -10px 4px 4px 0px #00000040;
+}
+
+.titleCart {
+    position: absolute;
+    width: 363px;
+    height: 44px;
+    left: 55px;
+    top: 162px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FBF6F0;
+    white-space: nowrap;
+    
+}
+
+.infoBob,
+.infoDeath {
+    position: absolute;
+    width: 187px;
+    height: 48px;
+    left: 227px;
+    top: 283px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.infoDeath {
+    width: 155px;
+    height: 24px;
+    left: 227px;
+    top: 593px;
+}
+
+.bobPlat,
+.deathPlat {
+    position: absolute;
+    width: 112px;
+    height: 20px;
+    left: 227px;
+    top: 356px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+.deathPlat {
+    top: 642px;
+}
+
+.bobPic,
+.deathPic {
+    position: absolute;
+    left: 426px;
+    top: 267px;
+}
+
+.deathPic {
+    left: 426px;
+    top: 577px;
+}
+
+.bobPic:hover,
+.deathPic:hover {
+    cursor: pointer;
+    filter: drop-shadow(-10px 5px 5px rgba(0, 0, 0, 0.5));
+}
+
+.bobPic:active,
+.deathPic:active {
+    transform: scale(0.95);
+}
+
+.bobPrice,
+.deathPrice,
+.total,
+.totalPrice {
+    position: absolute;
+    width: 151px;
+    height: 39px;
+    left: 227px;
+    top: 475px;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: right;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+.deathPrice {
+    top: 785px;
+}
+
+.total {
+    width: 75px;
+    left: 553px;
+    top: 862px;
+}
+
+.totalPrice {
+    top: 862px;
+}
+
+.metodo {
+    position: absolute;
+    width: 395px;
+    height: 44px;
+    left: 857px;
+    top: 162px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: #4B626C;
+    white-space: nowrap;
+}
+
+.pix {
+    position: absolute;
+    left: 982px;
+    top: 337px;
+}
+
+.pix2 {
+    position: absolute;
+    width: 46px;
+    height: 39px;
+    left: 1067px;
+    top: 347px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #4B626C;
+}
+
+.thisLine {
+    position: absolute;
+    width: 402px;
+    left: 228px;
+    top: 849px;
+    border: 2px solid #FBF6F0;
+    border-radius: 1px;
+}
+
+.greyLine {
+    position: absolute;
+    width: 376px;
+    left: 902px;
+    top: 460px;
+    border: 2px solid #4B626C;
+    border-radius: 5px;
+}
+
+.selecionar,
+.selecionar2 {
+    position: absolute;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    left: 1142px;
+    top: 358.5px;
+}
+
+.selecionar2 {
+    left: 902px;
+    top: 545px;
+}
+
+.termos {
+    position: absolute;
+    width: 305px;
+    height: 24px;
+    left: 938px;
+    top: 545px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #4B626C;
+    white-space: nowrap;
+}
+
+#final {
+    position: absolute;
+    text-decoration: none;
+    width: 192px;
+    height: 40px;
+    left: 993px;
+    top: 647px;
+    background: #4B626C;
+    color: #FBF6F0;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+#final:hover {
+    background-color: #3b4d57;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+#final:active {
+    background-color: #2a3a40;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transform: translate(-1px, 1px);
+}

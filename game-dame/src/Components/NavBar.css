@@ -1,0 +1,120 @@
+
+
+/*@media (max-width: 1024px) {
+    .input-wrapper {
+        margin: 10px;
+    }
+
+    .search-button {
+        font-size: 1.7rem;
+    }
+
+    .navBar nav ul li a {
+        font-size: 2vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .navBar nav ul li a {
+        font-size: 1.3rem;
+    }
+
+    .input-wrapper{
+        width: 25%;
+    }
+}
+
+@media (max-width: 800px) {
+    nav {
+        display: none;
+    }
+
+    .navBar {
+        justify-content: space-between;
+    }
+
+    .one,
+    .two,
+    .three {
+        background-color: #4B626C;
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+        margin-left: 18px;
+        transition-duration: 0.3s;
+    }
+
+    .input-wrapper {
+        width: 25%;
+    }
+
+    .menu-toggle {
+        width: 40px;
+        height: 30px;
+    }
+
+    .menu-section.on {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 100vw;
+        height: 100vh;
+
+        background-color: #FBF6F0;
+
+        z-index: 10;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        #line{
+            display: none;
+        }
+    }
+
+    .menu-section.on nav {
+        display: block;
+    }
+
+    .menu-section.on .menu-toggle {
+        position: absolute;
+        right: 25px;
+        top: 15px;
+    }
+
+    .menu-section.on .menu-toggle .one {
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+
+    .menu-section.on .menu-toggle .two {
+        opacity: 0;
+    }
+
+    .menu-section.on .menu-toggle .three {
+        transform: rotate(-45deg) translate(8px, -9px);
+    }
+
+    .menu-section.on nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .menu-section.on nav ul a {
+        transition-duration: 0.5s;
+        font-size: 3rem;
+        line-height: 4rem;
+        display: block;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .menu-toggle{
+        margin-right: 25px;
+    }
+}*/
