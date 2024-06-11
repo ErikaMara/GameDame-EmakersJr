@@ -1,7 +1,6 @@
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-
 function Lancamentos() {
     return (
         <div className="lancamentos">

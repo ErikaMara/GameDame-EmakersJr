@@ -1,7 +1,7 @@
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io"
 import { IoEllipse } from "react-icons/io5";
 
-function Carousel() {
+const Carousel = () => {
     return (
         <div className='carousel'>
             <button className="botao-voltar"><IoIosArrowBack /></button>

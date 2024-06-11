@@ -15,7 +15,8 @@
     z-index: -1;
 }
 
-.forgot, .register1 {
+.forgot,
+.register1 {
     position: absolute;
     width: 200px;
     height: 24px;
@@ -25,6 +26,7 @@
     font-size: 20px;
     line-height: 24px;
     color: #97A4A2;
+    transition: all 250ms linear 0s;
 }
 
 .register1 {
@@ -40,10 +42,12 @@
     top: 458px;
     color: #4B626C;
     font-size: 2rem;
+    transition: 150ms linear 0s;
 }
 
-.seta1:hover{
+.seta1:hover {
     filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    transform: translateY(-5px);
 }
 
 .seta1:active {
@@ -119,18 +123,18 @@
     margin: auto;
 }
 
-.email:hover, .senha:hover {
+.email:hover,
+.senha:hover {
     box-shadow: 0px 4px 20px 0px #3d454d40;
 }
 
-.email::placeholder, senha::placeholder{
+.email::placeholder,
+.senha::placeholder {
     color: #97A4A2;
 }
 
-.register1:active, .forgot:active{
-    transform: translate(-2px, 1px)
-}
-
-.register1:hover, .forgot:hover{
-    text-shadow: -4px 4px 4px #a5aaac;
+.register1:hover,
+.forgot:hover {
+    transform: translateY(-5px);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
 }

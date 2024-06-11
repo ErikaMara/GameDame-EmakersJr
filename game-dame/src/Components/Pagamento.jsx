@@ -1,7 +1,7 @@
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-function Pagamento() {
+const Pagamento = () => {
     return (
         <div>
             <div className="metodo">Método de Pagamento</div>

@@ -1,8 +1,7 @@
-import React, { useState } from 'react'
 import { PiLineVerticalThin } from "react-icons/pi";
 import SearchBar from "../Components/SearchBar";
 
-function NavBar() {
+const NavBar = () => {
     return (
         <div className='navBar'>
             <a href='/home'>

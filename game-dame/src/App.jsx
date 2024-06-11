@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import "./App.css"
 import HomePage from "./Pages/HomePage"
 import Login from "./Pages/Login"
 import NoPage from "./Pages/NoPage"
@@ -9,6 +8,7 @@ import Profile from './Pages/Profile'
 import GameScreen from './Pages/GameScreen'
 import ShoppingCart from './Pages/ShoppingCart'
 import TelaAdministrador from './Pages/Admin'
+import "./App.css"
 
 function App() {
   return (

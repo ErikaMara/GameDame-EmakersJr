@@ -1,4 +1,4 @@
-function Carrinho(){
+const Carrinho = () => {
     return (
         <div>
             <div className="bigbox"></div>

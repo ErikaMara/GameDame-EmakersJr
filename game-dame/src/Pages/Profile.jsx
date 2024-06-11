@@ -1,9 +1,9 @@
 import NavBar from "../Components/NavBar"
 import Adquiridos from "../Components/Adquiridos";
-import "./Profile.css"
 import { BiSolidPencil } from "react-icons/bi";
 import { FaTrashCan } from "react-icons/fa6";
 import { GrUserAdmin } from "react-icons/gr";
+import "./Profile.css"
 
 const Profile = () => {
     const nomeUsuario = '<<Nome do Usuário>>'
