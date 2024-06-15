@@ -88,6 +88,7 @@
     top: 778px;
     color: #4B626C;
     font-size: 2rem;
+    transition: 150ms linear 0s;
 }
 
 .seta2:hover {

@@ -10,8 +10,8 @@ const Login = () => {
       <div>
         <div className="quadrado">
           <p className="login">Login</p>
-          <input className="email" type="email" placeholder="E-mail"></input>
-          <input className="senha" type="password" placeholder="Senha"></input>
+          <input className="email" type="email" placeholder="E-mail" required />
+          <input className="senha" type="password" placeholder="Senha" required />
         </div>
       </div>
       <div className="rec">

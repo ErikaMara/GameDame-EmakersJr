@@ -7,7 +7,8 @@
     border-radius: 10px 0px 0px 10px;
 }
 
-.disc, .pricetag {
+.disc,
+.pricetag {
     position: absolute;
     width: 60px;
     height: 25px;
@@ -23,7 +24,8 @@
     justify-content: center;
 }
 
-.disc:hover, .pricetag:hover {
+.disc:hover,
+.pricetag:hover {
     background-color: #89A7B3;
     scale: 1.1;
 }
@@ -97,7 +99,8 @@
     border-radius: 1px;
 }
 
-.adcCart, .reembolso {
+.adcCart,
+.reembolso {
     position: absolute;
     display: flex;
     align-items: center;
@@ -130,7 +133,8 @@
     transform: translate(-1px, 1px);
 }
 
-.ball, .ball2 {
+.ball,
+.ball2 {
     position: absolute;
     width: 93px;
     height: 93px;
@@ -160,10 +164,10 @@
     scale: 2.5;
 }
 
-.shoppingCart:hover{
+.shoppingCart:hover {
     filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
 }
+
 .shoppingCart:active {
-    transform: translate(1.1px, 1px);
-   
+    transform: translate(0.5px, 1px);
 }

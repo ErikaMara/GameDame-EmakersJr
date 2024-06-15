@@ -9,7 +9,7 @@ const ForgotPassword = () => {
             </div>
             <div className="rectangle1">
                 <div className="recuperar">Recuperar Conta</div>
-                <input className="emailForg" type="email" placeholder="E-mail"></input>
+                <input className="emailForg" type="email" placeholder="E-mail" />
                 <div className="rec">
                     <a href="/login">
                         <div className="seta3"><FaArrowRightLong /></div>

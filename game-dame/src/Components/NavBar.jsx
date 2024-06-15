@@ -5,7 +5,8 @@ const NavBar = () => {
     return (
         <div className='navBar'>
             <a href='/home'>
-            <img src="src/Images/logo.png" alt="GameDame" title="GameDame"></img></a>
+                <img src="src/Images/logo.png" alt="GameDame" title="GameDame"></img>
+            </a>
             <a href="#" title="Lançamentos">Lançamentos</a>
             <PiLineVerticalThin />
             <a href="#" title="Populares">Populares</a>
